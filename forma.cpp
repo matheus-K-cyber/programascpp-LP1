@@ -10,5 +10,5 @@ Forma::~Forma() {
 std::string Forma::getNome() { return nome; }
 
 void Forma::exibir() {
-    std::cout << nome << ": area " << calcularArea() << std::endl;
+    std::cout << nome << ": area " << calcularArea() << "m²" << std::endl;
 }
